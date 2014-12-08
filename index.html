@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>JavaScript Events</title>
+    <link rel="stylesheet" type='text/css' href="//js.arcgis.com/3.11/dijit/themes/tundra/tundra.css">
+    <link rel="stylesheet" type='text/css' href="//js.arcgis.com/3.11/esri/css/esri.css">
+    <link rel="stylesheet" type='text/css' href="./css/styles.css">
+  </head>
+  <body class="tundra">  
+    <div data-dojo-type="dijit/layout/BorderContainer"  
+          data-dojo-props="design:'headline',gutters:false"  
+          style="width: 100%; height: 100%; margin: 0;">  
+      <div id="map"  
+            data-dojo-type="dijit/layout/ContentPane"  
+            data-dojo-props="region:'center'">  
+
+        <div id="layerinfo" class="shadow">  
+          States: 5,000,000 to 100,000,000</br>
+          Counties: 75,000 to 72,000,000</br>
+          Points: 0 to 75,0000        
+        </div>        
+        <div id="scaleinfo" class="shadow">  
+          <b>Map scale: <span id="map-scale">unknown</span></b><br/><br/>    
+          <b>Map zoom level was: <span id="map-zoom-was"></span></b><br/>    
+          <b>Map zoom level is: <span id="map-zoom-is"></span></b><br/>    
+          <b>Map extent</b><br/>
+          <b>&nbsp;&nbsp;&nbsp;XMin: <span id="map-xmin"></span></b><br/>
+          <b>&nbsp;&nbsp;&nbsp;YMin: <span id="map-ymin"></span></b><br/>
+          <b>&nbsp;&nbsp;&nbsp;XMax: <span id="map-xmax"></span></b><br/>
+          <b>&nbsp;&nbsp;&nbsp;YMax: <span id="map-ymax"></span></b><br/>
+        </div>
+      </div>
+    </div>
+    <script src="//js.arcgis.com/3.11/"></script>
+    <script src="./js/app.js"></script>
+  </body>  
+</html>  

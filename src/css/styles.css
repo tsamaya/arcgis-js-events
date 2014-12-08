@@ -1,0 +1,46 @@
+html, body { height: 100%; width: 100%; margin: 0; padding: 0; }  
+h3 { margin: 0 0 5px 0; border-bottom: 1px solid #444; text-align: center }  
+.shadow {  
+-moz-box-shadow: 0 0 5px #888;  
+-webkit-box-shadow: 0 0 5px #888;  
+box-shadow: 0 0 5px #888;  
+}  
+#map{ margin: 0; padding: 0; }  
+#layerinfo {  
+background: #fff;  
+color: #444;  
+position: absolute;  
+font-family: arial;  
+height: 55px;  
+left: 30px;  
+margin: 5px;  
+padding: 10px;  
+bottom: 44px;  
+text-align: center;  
+width: 300px;  
+z-index: 40;  
+}  
+#scaleinfo {  
+background: #fff;  
+color: #444;  
+position: absolute;  
+font-family: arial;  
+height: 165px;  
+right: 30px;  
+margin: 5px;  
+padding: 10px;  
+top: 44px;  
+text-align: left;  
+width: 300px;  
+z-index: 40;  
+}  
+.note { font-size: 80%; padding: 0 0 10px 0; }  
+#slider {  
+color: #666;   
+margin: 5px auto;  
+padding: 3px;  
+}  
+#appSliderLabel { padding: 0 0 10px 0; }  
+#maxLabel { display: inline-block; margin: 0 0 0 -30px;}  
+#minLabel { display: inline-block; margin: 0 0 0 30px;}  
+#breakInfo { padding: 20px 0 0 0; }  

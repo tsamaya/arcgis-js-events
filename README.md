@@ -1,8 +1,10 @@
 # arcgis-js-events
 
+Based on the esri support blog post [How to Plan a Great Map Event](http://blogs.esri.com/esri/supportcenter/2014/12/08/how-to-plan-a-great-map-event/)
+
 ## Map Events sample
 
-Based on the esri support blog post [How to Plan a Great Map Event](http://blogs.esri.com/esri/supportcenter/2014/12/08/how-to-plan-a-great-map-event/), this sample fixed jshint issues and adds a [Grunt](http://gruntjs.com/) build with a linting task.
+This sample fixes jshint issues and uses [Grunt](http://gruntjs.com/) as building tool including a linting task.
 
 ## Try it
 

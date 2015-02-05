@@ -4,7 +4,7 @@ Based on the esri support blog post [How to Plan a Great Map Event](http://blogs
 
 ## Map Events sample
 
-This sample fixes jshint issues and uses [Grunt](http://gruntjs.com/) as building tool including a linting task.
+This sample uses [Grunt](http://gruntjs.com/) as building tool including a linting task.
 
 ## Try it
 

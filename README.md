@@ -4,7 +4,7 @@ Based on the esri support blog post [How to Plan a Great Map Event](http://blogs
 
 ## Map Events sample
 
-This sample fixes jshint issues and uses [Grunt](http://gruntjs.com/) as building tool including a linting task.
+This sample uses [Grunt](http://gruntjs.com/) as building tool including a linting task.
 
 ## Try it
 
@@ -19,9 +19,9 @@ You will need to install [Node](http://nodejs.org/), and [Grunt](http://gruntjs.
 1. [Fork and clone the repo](https://help.github.com/articles/fork-a-repo)
 2. `cd` into the `arcgis-js-events` folder
 3. Run `npm install` to install the Grunt tasks
-6. Run `grunt serve` to load the unbuilt app into a web browser
-7. Modify the code as needed
-8. Run `grunt build` to build the app under the `dist` folder
+4. Run `grunt serve` to load the unbuilt app into a web browser
+5. Modify the code as needed
+6. Run `grunt build` to build the app under the `dist` folder
 
 You can then browse to the `dist` folder to view the built app. You may want to run `grunt clean:deploy` to remove all uncompressed javascript and source maps before you deploy the contents of that folder to your web server.
 

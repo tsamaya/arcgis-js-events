@@ -1,6 +1,6 @@
 // the infos object is used to track layer visibility and position
 var map, usaLayer = {};
-require([
+define([
   'esri/map', 'esri/layers/ArcGISDynamicMapServiceLayer',
   'esri/layers/ArcGISTiledMapServiceLayer',
   'esri/layers/DynamicLayerInfo',
@@ -14,6 +14,8 @@ require([
   DynamicLayerInfo,
   dojo, on, parser
 ) {
+  'use strict';
+  var app = {};
 
   parser.parse();
   map = new Map('map', {
@@ -132,4 +134,5 @@ require([
     console.log('Map zoom level is: ' + evt.level);
   }
 
+  return app;
 });

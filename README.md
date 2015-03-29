@@ -60,6 +60,3 @@ limitations under the License.
 
 A copy of the license is available in the repository's [license.txt](license.txt) file.
 
-## About Me
-
-Find more [About.me](http://about.me/arnaudferrand)
